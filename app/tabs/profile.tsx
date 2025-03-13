@@ -72,7 +72,7 @@ const styles = StyleSheet.create({
     marginTop: -40,
   },
 
-  avatar: { width: 80, height: 80, borderRadius: 40, borderWidth: 3, borderColor: "#000" },
+  avatar: { width: 80, height: 80, borderRadius: 40, borderWidth: 3, borderColor: "#fff" },
 
   followButton: {
     backgroundColor: "#1DA1F2",
@@ -83,16 +83,16 @@ const styles = StyleSheet.create({
   followText: { color: "#fff", fontWeight: "bold", fontSize: 16 },
 
   userInfo: { paddingHorizontal: 15, marginTop: 10 },
-  name: { fontWeight: "bold", fontSize: 20, color: "#fff" },
+  name: { fontWeight: "bold", fontSize: 20, color: "#000" },
   username: { color: "gray", fontSize: 16, marginBottom: 5 },
-  bio: { color: "#fff", fontSize: 14, marginBottom: 8 },
+  bio: { color: "#000", fontSize: 14, marginBottom: 8 },
   link: { color: "#1DA1F2" },
 
   infoRow: { flexDirection: "row", alignItems: "center", marginBottom: 10 },
   infoText: { color: "gray", fontSize: 14, marginLeft: 5 },
 
   followStats: { flexDirection: "row", alignItems: "center", marginBottom: 10 },
-  statNumber: { fontWeight: "bold", color: "#fff", fontSize: 16, marginRight: 5 },
+  statNumber: { fontWeight: "bold", color: "#000", fontSize: 16, marginRight: 5 },
   statLabel: { color: "gray", fontSize: 14, marginRight: 15 },
 
   tabs: {
@@ -102,14 +102,14 @@ const styles = StyleSheet.create({
     borderBottomWidth: 1,
     borderBottomColor: "#333",
   },
-  activeTab: { fontWeight: "bold", color: "#fff", fontSize: 16 },
+  activeTab: { fontWeight: "bold", color: "#000", fontSize: 16 },
   inactiveTab: { color: "gray", fontSize: 16 },
 
   tweetContainer: { paddingHorizontal: 15, paddingVertical: 10, borderBottomWidth: 1, borderBottomColor: "#333" },
   pinned: { color: "gray", fontSize: 12, marginBottom: 5 },
-  tweetUsername: { fontWeight: "bold", fontSize: 16, color: "#fff" },
+  tweetUsername: { fontWeight: "bold", fontSize: 16, color: "#000" },
   handle: { color: "gray", fontSize: 14 },
-  tweetText: { color: "#fff", fontSize: 14, marginVertical: 5 },
+  tweetText: { color: "#000", fontSize: 14, marginVertical: 5 },
   tweetActions: { flexDirection: "row", justifyContent: "space-between", width: "70%", marginTop: 5 },
 });
 
